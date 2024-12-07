@@ -1,5 +1,5 @@
 {% set name = "fireworks-ai" %}
-{% set version = "0.15.9" %}
+{% set version = "0.15.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/fireworks_ai-{{ version }}.tar.gz
-  sha256: 03f0cc16f1ce2c22103d06c737954154fc7a138b2122c3b243d3ff2d65ede65e
+  sha256: 2b4e7c691d40370c31e99e4ab0d493090d7b5bcb11ff4cda56a2db9059485bc2
 
 build:
   noarch: python
