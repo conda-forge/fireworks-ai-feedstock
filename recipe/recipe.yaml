@@ -42,7 +42,9 @@ tests:
       imports:
         - fireworks
       pip_check: true
-      python_version: ${{ python_min }}
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
 
 about:
   summary: Python client library for the Fireworks.ai Generative AI Platform
