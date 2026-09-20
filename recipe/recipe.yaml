@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: fireworks-ai
-  version: 1.2.11
+  version: "1.2.14"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/fireworks_ai-${{ version }}.tar.gz
-  sha256: 008c095a48d228c3f5538aa8d123f3390f1a68b6eea9a37436ed3c9740dfd827
+  sha256: 6645840552455fc85ea94fb2326ed9cacd3ea776533ed0e2a9dd6b66952591ed
 
 build:
   number: 0
