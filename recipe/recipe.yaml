@@ -2,15 +2,15 @@ schema_version: 1
 
 context:
   name: fireworks-ai
-  version: "1.2.19"
+  version: 1.2.20
 
 package:
   name: ${{ name|lower }}
   version: ${{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/f1/e7/4e174c1d3619ba8f87ff5b9f7b054a4da27438f95017f13e540e12270931/fireworks_ai-${{ version }}.tar.gz
-  sha256: 0477e76446e46f8b8894bd3c7ecb0754a1eb599ce44446c7a74444a6ca2049cf
+  url: https://files.pythonhosted.org/packages/01/c1/a3b680557b709bd592b0ef3ba86b98c35d8ee42e8f175fa104b34058cbd7/fireworks_ai-${{ version }}.tar.gz
+  sha256: d3ae96cbea8075171f63b4491fcd624c6a42ebc3ed84f647c084f294ebd58a19
 
 build:
   number: 0
@@ -26,7 +26,7 @@ requirements:
   run:
     - python >=${{ python_min }}
     - httpx >=0.23.0,<1
-    - pydantic >=1.9.0,<2.13
+    - pydantic >=1.9.0,<3
     - typing_extensions >=4.14,<5
     - aiohttp
     - sniffio
