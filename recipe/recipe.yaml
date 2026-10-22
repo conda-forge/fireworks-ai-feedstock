@@ -2,15 +2,15 @@ schema_version: 1
 
 context:
   name: fireworks-ai
-  version: "1.2.28"
+  version: 1.2.30
 
 package:
   name: ${{ name|lower }}
   version: ${{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/f5/40/7b155a80cee06738850162ea6af27d5e582d70caaa23b1486722635d60a5/fireworks_ai-${{ version }}.tar.gz
-  sha256: a447feeda64ed7c56a32e4928274c6207dc373cfa90507d4a8a30249d0d5f6a9
+  url: https://files.pythonhosted.org/packages/b1/8a/ed123fefbb4a037ef91f3c86b6ce762c9832992cdadcc3b3985398a0ea42/fireworks_ai-${{ version }}.tar.gz
+  sha256: 1f58f97a2c8ab7bc649e46983e4a2172111ab3add5cb98a87350daa4c1d035ad
 
 build:
   number: 0
@@ -33,6 +33,7 @@ requirements:
     - distro >=1.7.0,<2
     - httpx-aiohttp >=0.1.9
     - anyio >=3.5.0,<5
+    - certifi >=2026.10.19
 tests:
   - python:
       imports:
