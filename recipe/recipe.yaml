@@ -2,15 +2,15 @@ schema_version: 1
 
 context:
   name: fireworks-ai
-  version: "1.2.34"
+  version: "1.2.35"
 
 package:
   name: ${{ name|lower }}
   version: ${{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/a9/0a/3eb465359f71e16fa3362dcd69fb97dedb6198613a589cb28c6b07989fc1/fireworks_ai-${{ version }}.tar.gz
-  sha256: 7eb839f396c90c0268bfa07a16821fc51ef6e128602fed7ec69b3742fc5d4b76
+  url: https://files.pythonhosted.org/packages/a1/bd/b182af4a955e54ba55ba88670e6a4efbba8c7ce636d046d21d1572e28462/fireworks_ai-${{ version }}.tar.gz
+  sha256: 41e293f25d0d05dd5c295d3ccf922c972f12ad6a476b51c876ab1cf223561d4c
 
 build:
   number: 0
